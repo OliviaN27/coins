@@ -5,8 +5,7 @@ https://imgur.com/eFipMd6
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
-
+This is a re-trained Jetson Nano and it was trained on a dataset of different kinds of coins from all over the world. It runs on an imagenet.py program that will classify the coin in its country's currency.
 ## Running this project
 
 1. First make sure you have installed VS Code, Putty, or Terminal
@@ -18,6 +17,6 @@ Add an explanation of the algorithm and how it works. Make sure to include detai
 7. After you are done training you can test it out. You can use these commands:
    $ NET=models/coins
    $ DATASET=data/coins
-8. Then run this command and choose which image you want to test: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/5/009__20 Cents_australia.jpg 5.jpg
+8. Then run this command and choose which image you want to test: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/5/009__20.jpg coins.jpg
 
 Here is my demonstration video:
