@@ -19,6 +19,4 @@ This is a re-trained Jetson Nano and it was trained on a dataset of different ki
    $ DATASET=data/coins
 8. Then run this command and choose which image you want to test: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/5/009__20.jpg coins.jpg
 
-Here is my demonstration video:
-
-
+Here is my demonstration video: https://drive.google.com/file/d/1-PZkVnkvl6se0Ld1Xvu_WE2EbYZi0-qp/view?usp=sharing
